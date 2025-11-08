@@ -25,6 +25,9 @@ Explanation: Your function should return k = 2, with the first two elements of n
 It does not matter what you leave beyond the returned k (hence they are underscores).*/
 
 //code- 
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {

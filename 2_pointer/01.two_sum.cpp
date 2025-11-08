@@ -12,6 +12,9 @@ Output: [1,2]
 Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].*/
 
 //code
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
