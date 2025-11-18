@@ -21,6 +21,13 @@ Explanation: There is a cycle in the linked list, where the tail connects to the
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
 class Solution {
 public:
     bool hasCycle(ListNode *head){
