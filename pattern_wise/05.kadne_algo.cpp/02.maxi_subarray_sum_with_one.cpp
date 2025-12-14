@@ -8,7 +8,7 @@ Output: 4
 Explanation: Because we can choose [1, -2, 0, 3] and drop -2, thus the subarray [1, 0, 3] becomes the maximum value.*/
 
 //code-
-#include<bits/c++.h>
+#include<bits/stdc++.h> 
 using namespace std;
 class Solution {
 public:
