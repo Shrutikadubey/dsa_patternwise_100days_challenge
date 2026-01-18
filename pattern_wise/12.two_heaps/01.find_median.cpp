@@ -24,6 +24,8 @@ Window position                Median
  1  3  -1  -3 [5  3  6] 7        5
  1  3  -1  -3  5 [3  6  7]       6*/
 //code-
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
      multiset<int> low, high;
 
