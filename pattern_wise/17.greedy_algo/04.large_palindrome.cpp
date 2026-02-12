@@ -25,7 +25,6 @@ public:
     string largestPalindromic(string num) {
        vector<int> cnt(10, 0);
         for (char c : num) cnt[c - '0']++;
-
         string left = "";
         for (int d = 9; d >= 0; d--) {
             while (cnt[d] >= 2) {
